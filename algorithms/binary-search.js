@@ -1,6 +1,6 @@
 let input = [...Array(10).keys()]
 
-function binarySearch(arr, target, start= 0, end = arr.length -1) {
+export function binarySearch(arr, target, start= 0, end = arr.length -1) {
     // console.log("str: ",start);
     // console.log("emd: ",end);
     // console.log("target: ",target);
@@ -27,4 +27,4 @@ function binarySearch(arr, target, start= 0, end = arr.length -1) {
     
 }
 
-console.log(binarySearch(input,2.5))
+// console.log(binarySearch(input,2.5))

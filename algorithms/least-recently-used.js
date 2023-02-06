@@ -1,4 +1,4 @@
-class LRU {
+export class LRU {
     constructor(capacity) {
       this.capacity = capacity;
       this.cache = new Map();
@@ -34,11 +34,11 @@ class LRU {
     }
 }
 
-const cache = new LRU(5);
-cache.putItem('a', 1);
-cache.putItem('b', 2);
-cache.putItem('c', 3);
-cache.putItem('d', 4);
-cache.putItem('e', 5);
-cache.getItem('a');
-console.log()
+// const cache = new LRU(5);
+// cache.putItem('a', 1);
+// cache.putItem('b', 2);
+// cache.putItem('c', 3);
+// cache.putItem('d', 4);
+// cache.putItem('e', 5);
+// cache.getItem('a');
+// console.log()
